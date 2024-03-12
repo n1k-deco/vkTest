@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  margin: 0 100px;
+  margin-bottom: 50px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.filters label {
+  display: flex;
+  gap: 15px;
+}
+
+.friend-list {
+  margin-top: 20px;
+}
+
+.friend-list ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.friends {
+  cursor: pointer;
+}
+
+.friends ul {
+  cursor:auto;
+}
+
+.groups-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.group-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: left;
+  min-width: 150px;
+  max-width: 300px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.avatar span {
+  display: inline-block;
+}
+
+.group-details {
+  margin-top: 10px;
+}
+
+.group-details h2 {
+  margin-bottom: 5px;
+}
+
+.group-details p {
+  margin: 5px 0;
+}
+
+.group-details ul {
+  padding: 0;
+  margin: 5px 0;
+  list-style: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.group-details li {
+  padding: 5px 10px;
+}
